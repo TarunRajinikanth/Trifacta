@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="30.279234">
+<testcase classname="Log into the website, display the product version information, and then logout" name="Verifying the Product version number is displayed" time="30.279234">
+<system-out><![CDATA[Given users launches the webapplication.....................................passed
+When user enters valid credentials "Sheet1" and 0 lands on homepage check for the product version.passed
+Then logout from the website................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

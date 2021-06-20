@@ -1,0 +1,10 @@
+com\trifacta\pageObjects\Home.class
+com\trifacta\utilities\ReadConfig.class
+com\trifacta\utilities\XLUtil.class
+com\trifacta\utilities\WaitUtil.class
+com\trifacta\runner\Runner.class
+com\trifacta\pageObjects\Login.class
+com\trifacta\pageObjects\Logout.class
+com\trifacta\utilities\BaseClass.class
+com\trifacta\utilities\Reporting.class
+com\trifacta\stepDefinition\LoginStep.class

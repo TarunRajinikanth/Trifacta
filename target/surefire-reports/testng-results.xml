@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Tifacta" duration-ms="52302" started-at="2021-06-20T18:03:41 IST" finished-at="2021-06-20T18:04:33 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="Runner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.trifacta.runner.Runner@33723e30]" name="feature" class="com.trifacta.runner.Runner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Tifacta" duration-ms="52302" started-at="2021-06-20T18:03:41 IST" finished-at="2021-06-20T18:04:33 IST">
+      <class name="com.trifacta.runner.Runner">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.trifacta.runner.Runner@33723e30]" name="setUp" is-config="true" duration-ms="20493" started-at="2021-06-20T18:03:41 IST" finished-at="2021-06-20T18:04:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[headless]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.trifacta.runner.Runner@33723e30]" name="feature" duration-ms="30359" started-at="2021-06-20T18:04:02 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-06-20T18:04:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Log into the website, display the product version information, and then logout]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.trifacta.runner.Runner@33723e30]" name="tearDownClass" is-config="true" duration-ms="734" started-at="2021-06-20T18:04:33 IST" finished-at="2021-06-20T18:04:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.trifacta.runner.Runner -->
+    </test> <!-- Tifacta -->
+  </suite> <!-- Tifacta -->
+</testng-results>
