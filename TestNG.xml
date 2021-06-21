@@ -12,5 +12,4 @@
 			<class name="com.trifacta.runner.Runner" />
 		</classes>
 	</test>
-
 </suite>

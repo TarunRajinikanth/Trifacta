@@ -29,3 +29,49 @@
 21:19:2021 17:19:57.481 INFO stepDefinition.LoginStep [TestNG-tests-1] - Login is successful, Home page is loaded
 21:19:2021 17:19:59.395 INFO stepDefinition.LoginStep [TestNG-tests-1] - Product version is captured successfully
 21:20:2021 17:20:02.109 INFO stepDefinition.LoginStep [TestNG-tests-1] - Logged out from the account
+21:58:2021 17:58:50.311 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Google is launched successfully
+21:58:2021 17:58:50.578 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search value is provided
+21:59:2021 17:59:02.512 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search Results are obtained
+21:30:2021 19:30:43.338 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Google is launched successfully
+21:30:2021 19:30:43.619 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search value is provided
+21:30:2021 19:30:46.828 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search Results are obtained
+21:32:2021 19:32:09.777 INFO stepDefinition.LoginStep [TestNG-tests-1] - Login page is launched
+21:32:2021 19:32:10.296 INFO stepDefinition.LoginStep [TestNG-tests-1] - Login Page is loaded as expected.
+21:32:2021 19:32:12.174 INFO stepDefinition.LoginStep [TestNG-tests-1] - Username and password are entred successfully and Login is inprogress...
+21:32:2021 19:32:35.878 INFO stepDefinition.LoginStep [TestNG-tests-1] - Login is successful, Home page is loaded
+21:32:2021 19:32:37.816 INFO stepDefinition.LoginStep [TestNG-tests-1] - Product version is captured successfully
+21:32:2021 19:32:41.686 INFO stepDefinition.LoginStep [TestNG-tests-1] - Logged out from the account
+21:34:2021 19:34:28.161 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Google is launched successfully
+21:34:2021 19:34:28.421 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search value is provided
+21:34:2021 19:34:31.146 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search Results are obtained
+21:34:2021 19:34:51.240 INFO stepDefinition.LoginStep [TestNG-tests-1] - Login page is launched
+21:34:2021 19:34:51.652 INFO stepDefinition.LoginStep [TestNG-tests-1] - Login Page is loaded as expected.
+21:34:2021 19:34:53.475 INFO stepDefinition.LoginStep [TestNG-tests-1] - Username and password are entred successfully and Login is inprogress...
+21:35:2021 19:35:25.876 INFO stepDefinition.LoginStep [TestNG-tests-1] - Login is successful, Home page is loaded
+21:35:2021 19:35:28.121 INFO stepDefinition.LoginStep [TestNG-tests-1] - Product version is captured successfully
+21:35:2021 19:35:31.347 INFO stepDefinition.LoginStep [TestNG-tests-1] - Logged out from the account
+21:40:2021 19:40:48.771 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Google is launched successfully
+21:40:2021 19:40:48.980 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search value is provided
+21:40:2021 19:40:52.365 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search Results are obtained
+21:41:2021 19:41:59.592 INFO stepDefinition.LoginStep [TestNG-tests-1] - Login page is launched
+21:42:2021 19:42:00.124 INFO stepDefinition.LoginStep [TestNG-tests-1] - Login Page is loaded as expected.
+21:42:2021 19:42:01.613 INFO stepDefinition.LoginStep [TestNG-tests-1] - Username and password are entred successfully and Login is inprogress...
+21:42:2021 19:42:32.582 INFO stepDefinition.LoginStep [TestNG-tests-1] - Login is successful, Home page is loaded
+21:42:2021 19:42:34.575 INFO stepDefinition.LoginStep [TestNG-tests-1] - Product version is captured successfully
+21:42:2021 19:42:37.750 INFO stepDefinition.LoginStep [TestNG-tests-1] - Logged out from the account
+21:45:2021 19:45:45.517 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Google is launched successfully
+21:45:2021 19:45:45.704 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search value is provided
+21:45:2021 19:45:47.993 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search Results are obtained
+21:48:2021 19:48:32.466 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Google is launched successfully
+21:48:2021 19:48:32.846 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search value is provided
+21:48:2021 19:48:35.603 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search Results are obtained
+21:50:2021 19:50:52.786 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Google is launched successfully
+21:50:2021 19:50:53.028 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search value is provided
+21:50:2021 19:50:55.536 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search Results are obtained
+21:51:2021 19:51:47.719 INFO stepDefinition.LoginStep [TestNG-tests-1] - Login page is launched
+21:51:2021 19:51:47.862 INFO stepDefinition.LoginStep [TestNG-tests-1] - Login Page is loaded as expected.
+21:51:2021 19:51:49.613 INFO stepDefinition.LoginStep [TestNG-tests-1] - Username and password are entred successfully and Login is inprogress...
+21:52:2021 19:52:05.438 INFO stepDefinition.LoginStep [TestNG-tests-1] - Login is successful, Home page is loaded
+21:52:2021 19:52:07.470 INFO pageObjects.Home [TestNG-tests-1] - Product version captured is 8.4.0+80.20210615183135.e9cc0ed
+21:52:2021 19:52:07.859 INFO stepDefinition.LoginStep [TestNG-tests-1] - Product version is captured successfully
+21:52:2021 19:52:11.114 INFO stepDefinition.LoginStep [TestNG-tests-1] - Logged out from the account

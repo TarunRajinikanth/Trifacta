@@ -105,6 +105,16 @@
 			<artifactId>selenium-java</artifactId>
 			<version>3.141.59</version>
 		</dependency>
+		<dependency>
+		    <groupId>xerces</groupId>
+		    <artifactId>xercesImpl</artifactId>
+		    <version>2.11.0</version>
+		</dependency>
+		<dependency>
+		    <groupId>com.github.mkolisnyk</groupId>
+		    <artifactId>cucumber-runner</artifactId>
+		    <version>1.0.8</version>
+		</dependency>
 
 		<dependency>
 			<groupId>org.testng</groupId>

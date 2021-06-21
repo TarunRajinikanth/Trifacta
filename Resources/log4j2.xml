@@ -24,6 +24,12 @@
 		<Logger name ="com.trifacta.stepDefinition" level="trace" additivity="true">
 			<AppenderRef ref="RollingFile"/>
 		</Logger>
+		<Logger name ="com.trifacta.pageObjects" level="trace" additivity="true">
+			<AppenderRef ref="Console"/>
+		</Logger>
+		<Logger name ="com.trifacta.pageObjects" level="trace" additivity="true">
+			<AppenderRef ref="RollingFile"/>
+		</Logger>
 		<Root level="trace">
 			<AppenderRef ref="Console" />
 		</Root>

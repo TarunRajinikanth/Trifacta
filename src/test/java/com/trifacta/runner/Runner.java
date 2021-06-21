@@ -14,20 +14,35 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import com.github.mkolisnyk.cucumber.runner.ExtendedCucumberOptions;
+import com.github.mkolisnyk.cucumber.runner.ExtendedCucumber;
 import com.trifacta.utilities.ReadConfig;
 import com.trifacta.utilities.WaitUtil;
 
 import cucumber.api.CucumberOptions;
-import cucumber.api.junit.Cucumber;
 import cucumber.api.testng.CucumberFeatureWrapper;
 import cucumber.api.testng.TestNGCucumberRunner;
 
-@RunWith(Cucumber.class)
+@RunWith(ExtendedCucumber.class)
+
+@ExtendedCucumberOptions(jsonReport = "target/Cucumber.json",
+						retryCount = 3,
+						detailedReport = true,
+						detailedAggregatedReport = true,
+						overviewReport = true,
+						coverageReport = true,
+						jsonUsageReport = "target/cucumber-usage.json",
+						usageReport = true,
+						toPDF=true,
+						includeCoverageTags = ("@google,@Trifacta"),
+						outputFolder="target"						
+		)
+
 @CucumberOptions(
 		features = "src/test/java/com/trifacta/features",
 		glue= {"com.trifacta.stepDefinition"},
 		dryRun = false,
-		tags = {"@google"}, //@Trifacta
+		tags = {"@google,@Trifacta"},
 		monochrome=false,
 		plugin= {"pretty","html:test-output", "json:json_output/cucumber.json", "junit:junit_output/cucumber.xml" }
 		)

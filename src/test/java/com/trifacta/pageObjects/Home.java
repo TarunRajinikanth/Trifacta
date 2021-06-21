@@ -2,6 +2,8 @@ package com.trifacta.pageObjects;
 
 import java.io.IOException;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.core.Logger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -11,7 +13,7 @@ import com.trifacta.utilities.BaseClass;
 
 
 public class Home extends BaseClass{
-	
+	Logger log = (Logger) LogManager.getLogger(Home.class.getName());
 	@FindBy(xpath = "//div[contains(text(),'Welcome back,')]")
 	WebElement HomePageConfirmation;
 	
@@ -54,7 +56,7 @@ public class Home extends BaseClass{
 		Actions action = new Actions(driver);
 		action.moveToElement(ProductVersion).build().perform();
 		String Product = ProductVersion.getText();
-		System.out.println(Product);
+		log.info("Product version captured is " +Product);
 		Actions action2 = new Actions(driver);
 		action2.moveToElement(CloseAbout).build().perform();
 		CloseAbout.click();
