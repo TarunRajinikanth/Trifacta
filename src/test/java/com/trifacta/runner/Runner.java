@@ -27,7 +27,7 @@ import cucumber.api.testng.TestNGCucumberRunner;
 		features = "src/test/java/com/trifacta/features",
 		glue= {"com.trifacta.stepDefinition"},
 		dryRun = false,
-		tags = {"@Trifacta"},
+		tags = {"@google"}, //@Trifacta
 		monochrome=false,
 		plugin= {"pretty","html:test-output", "json:json_output/cucumber.json", "junit:junit_output/cucumber.xml" }
 		)

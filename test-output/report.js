@@ -97,7 +97,7 @@ formatter.match({
   "location": "LoginStep.users_launches_the_webapplication()"
 });
 formatter.result({
-  "duration": 40498230500,
+  "duration": 97005400400,
   "status": "passed"
 });
 formatter.match({
@@ -114,14 +114,14 @@ formatter.match({
   "location": "LoginStep.user_enters_valid_credentials_and_rownum_lands_on_homepage_check_for_the_product_version(String,int)"
 });
 formatter.result({
-  "duration": 22261867200,
+  "duration": 67188371000,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.logout_from_the_website()"
 });
 formatter.result({
-  "duration": 4739058000,
+  "duration": 5278932600,
   "status": "passed"
 });
 });
