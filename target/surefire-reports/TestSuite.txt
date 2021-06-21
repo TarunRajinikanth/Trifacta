@@ -1,23 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 122.057 s <<< FAILURE! - in TestSuite
-feature(com.trifacta.runner.Runner)  Time elapsed: 100.297 s  <<< FAILURE!
-cucumber.runtime.CucumberException: 
-org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 97.802
-  (Session info: headless chrome=91.0.4472.114)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-84GA0B6G', ip: '192.168.0.113', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\Tarun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53161}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7932e79466905b11c9c7067a06427439
-	at com.trifacta.runner.Runner.feature(Runner.java:101)
-Caused by: org.openqa.selenium.TimeoutException: 
-timeout: Timed out receiving message from renderer: 97.802
-  (Session info: headless chrome=91.0.4472.114)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-84GA0B6G', ip: '192.168.0.113', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\Tarun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53161}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7932e79466905b11c9c7067a06427439
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.831 s - in TestSuite

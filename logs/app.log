@@ -75,3 +75,6 @@
 21:52:2021 19:52:07.470 INFO pageObjects.Home [TestNG-tests-1] - Product version captured is 8.4.0+80.20210615183135.e9cc0ed
 21:52:2021 19:52:07.859 INFO stepDefinition.LoginStep [TestNG-tests-1] - Product version is captured successfully
 21:52:2021 19:52:11.114 INFO stepDefinition.LoginStep [TestNG-tests-1] - Logged out from the account
+21:11:2021 20:11:25.189 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Google is launched successfully
+21:11:2021 20:11:25.560 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search value is provided
+21:11:2021 20:11:28.025 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search Results are obtained

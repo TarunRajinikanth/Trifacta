@@ -34,7 +34,7 @@ import cucumber.api.testng.TestNGCucumberRunner;
 						jsonUsageReport = "target/cucumber-usage.json",
 						usageReport = true,
 						toPDF=true,
-						includeCoverageTags = ("@google,@Trifacta"),
+						includeCoverageTags = ("@google"),
 						outputFolder="target"						
 		)
 
@@ -42,7 +42,7 @@ import cucumber.api.testng.TestNGCucumberRunner;
 		features = "src/test/java/com/trifacta/features",
 		glue= {"com.trifacta.stepDefinition"},
 		dryRun = false,
-		tags = {"@google,@Trifacta"},
+		tags = {"@google"},
 		monochrome=false,
 		plugin= {"pretty","html:test-output", "json:json_output/cucumber.json", "junit:junit_output/cucumber.xml" }
 		)
