@@ -26,6 +26,10 @@ public class ReadConfig {
 		String URL = prop.getProperty("url");
 		return URL;
 	}
+	public String getApplicationURL2() {
+		String URL2 = prop.getProperty("url2");
+		return URL2;
+	}
 	public String getUsername() {
 		String uname = prop.getProperty("username");
 		return uname;

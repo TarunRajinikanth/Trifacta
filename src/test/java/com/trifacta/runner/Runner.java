@@ -2,8 +2,6 @@ package com.trifacta.runner;
 
 import java.util.concurrent.TimeUnit;
 
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -26,9 +24,10 @@ import cucumber.api.testng.TestNGCucumberRunner;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "src/test/java/com/trifacta/features/Login.feature",
+		features = "src/test/java/com/trifacta/features",
 		glue= {"com.trifacta.stepDefinition"},
 		dryRun = false,
+		tags = {"@Trifacta"},
 		monochrome=false,
 		plugin= {"pretty","html:test-output", "json:json_output/cucumber.json", "junit:junit_output/cucumber.xml" }
 		)
@@ -38,9 +37,10 @@ public class Runner {
 	private TestNGCucumberRunner testNGCucumberRunner;
 	public static WebDriver driver;
 	public static WebDriverWait wait;
-	public static Logger logg;
+	
 	ReadConfig RC = new ReadConfig();
 	public String URL = RC.getApplicationURL();
+	public String URL2 = RC.getApplicationURL2();
 	public String username = RC.getUsername();
 	public String password = RC.getPassword();
 	
@@ -50,8 +50,8 @@ public class Runner {
 		
 		testNGCucumberRunner = new TestNGCucumberRunner(this.getClass());
 		
-		logg = Logger.getLogger("Trifacta");
-		PropertyConfigurator.configure("log4j.properties");
+		
+		//propertyConfigurator.configure("log4j.properties");
 		
 		if(br.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+RC.launchChrome());
@@ -63,6 +63,7 @@ public class Runner {
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--headless","--window-size=1920,1200","--ignore-certificate-errors","--disable-extensions","--no-sandbox","--disable-dev-shm-usage");
 			driver = new ChromeDriver(options);
+			
 			
 		}
 		else if (br.equals("firefox")) {
@@ -77,7 +78,8 @@ public class Runner {
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(WaitUtil.PAGE_LODE_TIMEOUT, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(WaitUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
-		driver.get(URL);
+		
+		
 	}
 	
 	

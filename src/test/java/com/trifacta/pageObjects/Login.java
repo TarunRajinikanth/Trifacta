@@ -32,11 +32,11 @@ public class Login extends BaseClass{
 		
 		Boolean isDisplayed = false;
 		if(LoginLogo.isDisplayed()==true) {
-			logg.info("Expected Logo is displayed");
+			
 			isDisplayed = true;
 		}
 		else if (LoginLogo.isDisplayed()==false) {
-			logg.info("Failed to display the logo");
+			
 			captureScreen(driver, "LoginPageLogo");
 			isDisplayed = false;
 		}
@@ -50,11 +50,11 @@ public class Login extends BaseClass{
 	public Home login(String uname, String pword) {
 		
 		username.sendKeys(uname);
-		logg.info("Username is entered");
+		
 		password.sendKeys(pword);
-		logg.info("password is entered");
+		
 		LoginButton.click();
-		logg.info("Login button is clicked");
+		
 		return new Home();
 	}
 	

@@ -35,11 +35,11 @@ public class Home extends BaseClass{
 		boolean homepageIsDisplayed = false;
 		if(HomePageConfirmation.isDisplayed() == true) {
 			homepageIsDisplayed = true;
-			logg.info("Login is successful");
+			
 		}
 		else if (HomePageConfirmation.isDisplayed() == false) {
 			homepageIsDisplayed = false;
-			logg.info("Login failed");
+			
 			captureScreen(driver, "Homepageconfirmation");
 		}
 		return homepageIsDisplayed;
@@ -54,7 +54,7 @@ public class Home extends BaseClass{
 		Actions action = new Actions(driver);
 		action.moveToElement(ProductVersion).build().perform();
 		String Product = ProductVersion.getText();
-		logg.info("Product version is:" +Product);
+		System.out.println(Product);
 		Actions action2 = new Actions(driver);
 		action2.moveToElement(CloseAbout).build().perform();
 		CloseAbout.click();

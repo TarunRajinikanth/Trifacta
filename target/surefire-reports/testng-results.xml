@@ -2,26 +2,26 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Tifacta" duration-ms="52302" started-at="2021-06-20T18:03:41 IST" finished-at="2021-06-20T18:04:33 IST">
+  <suite name="Tifacta" duration-ms="170937" started-at="2021-06-21T14:57:33 IST" finished-at="2021-06-21T15:00:24 IST">
     <groups>
       <group name="cucumber">
-        <method signature="Runner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.trifacta.runner.Runner@33723e30]" name="feature" class="com.trifacta.runner.Runner"/>
+        <method signature="Runner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.trifacta.runner.Runner@553a3d88]" name="feature" class="com.trifacta.runner.Runner"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Tifacta" duration-ms="52302" started-at="2021-06-20T18:03:41 IST" finished-at="2021-06-20T18:04:33 IST">
+    <test name="Tifacta" duration-ms="170937" started-at="2021-06-21T14:57:33 IST" finished-at="2021-06-21T15:00:24 IST">
       <class name="com.trifacta.runner.Runner">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.trifacta.runner.Runner@33723e30]" name="setUp" is-config="true" duration-ms="20493" started-at="2021-06-20T18:03:41 IST" finished-at="2021-06-20T18:04:02 IST">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.trifacta.runner.Runner@553a3d88]" name="setUp" is-config="true" duration-ms="3684" started-at="2021-06-21T14:57:33 IST" finished-at="2021-06-21T14:57:37 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[headless]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.trifacta.runner.Runner@33723e30]" name="feature" duration-ms="30359" started-at="2021-06-20T18:04:02 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-06-20T18:04:33 IST">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.trifacta.runner.Runner@553a3d88]" name="feature" duration-ms="165371" started-at="2021-06-21T14:57:37 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-06-21T15:00:23 IST">
           <params>
             <param index="0">
               <value>
@@ -32,7 +32,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.trifacta.runner.Runner@33723e30]" name="tearDownClass" is-config="true" duration-ms="734" started-at="2021-06-20T18:04:33 IST" finished-at="2021-06-20T18:04:33 IST">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.trifacta.runner.Runner@553a3d88]" name="tearDownClass" is-config="true" duration-ms="1277" started-at="2021-06-21T15:00:23 IST" finished-at="2021-06-21T15:00:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

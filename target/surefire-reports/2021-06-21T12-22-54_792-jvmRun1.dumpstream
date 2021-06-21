@@ -1,0 +1,213 @@
+# Created at 2021-06-21T12:29:23.679
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Unknown Source)
+
+
+# Created at 2021-06-21T12:29:40.208
+Unexpected IOException with stream: 
+
+
+# Created at 2021-06-21T12:29:40.210
+Unexpected IOException with stream:   Scenario Outline: Verifying the Product version number is displayed                                 [90m# src/test/java/com/trifacta/features/Login.feature:11[0m
+
+
+# Created at 2021-06-21T12:29:40.211
+Unexpected IOException with stream:     [32mGiven [0m[32musers launches the webapplication[0m                                                           [90m# LoginStep.users_launches_the_webapplication()[0m
+
+
+# Created at 2021-06-21T12:29:40.213
+Unexpected IOException with stream:     [31mWhen [0m[31muser enters valid credentials "[0m[31m[1mSheet1[0m[31m" and [0m[31m[1m0[0m[31m lands on homepage check for the product version[0m [90m# LoginStep.user_enters_valid_credentials_and_rownum_lands_on_homepage_check_for_the_product_version(String,int)[0m
+
+
+# Created at 2021-06-21T12:29:40.215
+Unexpected IOException with stream:       [31morg.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//div[contains(text(),'Welcome back,')]
+      For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+      System info: host: 'LAPTOP-84GA0B6G', ip: '192.168.0.113', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+      Driver info: driver.version: RemoteWebDriver
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+      	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+      	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+      	at com.sun.proxy.$Proxy23.isDisplayed(Unknown Source)
+      	at com.trifacta.pageObjects.Home.Homepageconfirmation(Home.java:36)
+      	at com.trifacta.stepDefinition.LoginStep.user_enters_valid_credentials_and_rownum_lands_on_homepage_check_for_the_product_version(LoginStep.java:52)
+      	at ?.When user enters valid credentials "Sheet1" and 0 lands on homepage check for the product version(src/test/java/com/trifacta/features/Login.feature:6)
+      [0m
+
+
+# Created at 2021-06-21T12:29:40.217
+Unexpected IOException with stream:     [36mThen [0m[36mlogout from the website as well[0m                                                              [90m# LoginStep.logout_from_the_website()[0m
+
+
+# Created at 2021-06-21T12:29:40.250
+Unexpected IOException: 8,1,com.trifacta.runner.Runner,feature(com.trifacta.runner.Runner),null,org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//div[contains(text()\002C'Welcome back\002C')]\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'LAPTOP-84GA0B6G'\002C ip: '192.168.0.113'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_251'\000ADriver info: driver.version: RemoteWebDriver,null,org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//div[contains(text()\002C'Welcome back\002C')]\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'LAPTOP-84GA0B6G'\002C ip: '192.168.0.113'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_251'\000ADriver info: driver.version: RemoteWebDriver,Runner.feature:87 \00BB Cucumber org.openqa.selenium.NoSuchElementException: Canno...,cucumber.runtime.CucumberException: \000Aorg.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//div[contains(text()\002C'Welcome back\002C')]\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'LAPTOP-84GA0B6G'\002C ip: '192.168.0.113'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_251'\000ADriver info: driver.version: RemoteWebDriver\000A\0009at com.trifacta.runner.Runner.feature(Runner.java:87)\000ACaused by: org.openqa.selenium.NoSuchElementException: \000ACannot locate an element using xpath=//div[contains(text()\002C'Welcome back\002C')]\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'LAPTOP-84GA0B6G'\002C ip: '192.168.0.113'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_251'\000ADriver info: driver.version: RemoteWebDriver\000A
+
+
+# Created at 2021-06-21T12:29:40.326
+Unexpected IOException with stream: Cleaning up unclosed ZipFile for archive D:\Workspace\Tifacta\src\test\java\com\trifacta\testData\LoginData.xlsx
+
+
+# Created at 2021-06-21T12:29:40.450
+Unexpected IOException with stream: 
+
+
+# Created at 2021-06-21T12:29:40.451
+Unexpected IOException with stream: [31mFailed scenarios:[0m
+
+
+# Created at 2021-06-21T12:29:40.453
+Unexpected IOException with stream: [31msrc/test/java/com/trifacta/features/Login.feature:11 [0m
+
+# Created at 2021-06-21T12:29:40.454
+Unexpected IOException with stream: # Scenario Outline: Verifying the Product version number is displayed
+
+
+# Created at 2021-06-21T12:29:40.456
+Unexpected IOException with stream: 
+
+
+# Created at 2021-06-21T12:29:40.457
+Unexpected IOException with stream: 1
+
+# Created at 2021-06-21T12:29:40.458
+Unexpected IOException with stream:  Scenarios (
+
+# Created at 2021-06-21T12:29:40.459
+Unexpected IOException with stream: [31m1 failed[0m
+
+# Created at 2021-06-21T12:29:40.460
+Unexpected IOException with stream: )
+
+
+# Created at 2021-06-21T12:29:40.460
+Unexpected IOException with stream: 3
+
+# Created at 2021-06-21T12:29:40.461
+Unexpected IOException with stream:  Steps (
+
+# Created at 2021-06-21T12:29:40.462
+Unexpected IOException with stream: [31m1 failed[0m
+
+# Created at 2021-06-21T12:29:40.462
+Unexpected IOException with stream: , 
+
+# Created at 2021-06-21T12:29:40.463
+Unexpected IOException with stream: [36m1 skipped[0m
+
+# Created at 2021-06-21T12:29:40.463
+Unexpected IOException with stream: , 
+
+# Created at 2021-06-21T12:29:40.464
+Unexpected IOException with stream: [32m1 passed[0m
+
+# Created at 2021-06-21T12:29:40.465
+Unexpected IOException with stream: )
+
+
+# Created at 2021-06-21T12:29:40.466
+Unexpected IOException with stream: 5m
+
+# Created at 2021-06-21T12:29:40.467
+Unexpected IOException with stream: 18.009s
+
+
+# Created at 2021-06-21T12:29:40.468
+Unexpected IOException with stream: 
+
+
+# Created at 2021-06-21T12:29:40.470
+Unexpected IOException with stream: org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//div[contains(text(),'Welcome back,')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-84GA0B6G', ip: '192.168.0.113', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: RemoteWebDriver
+
+# Created at 2021-06-21T12:29:40.471
+Unexpected IOException with stream: 
+
+
+# Created at 2021-06-21T12:29:40.472
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+
+# Created at 2021-06-21T12:29:40.473
+Unexpected IOException with stream: 
+
+
+# Created at 2021-06-21T12:29:40.474
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+
+# Created at 2021-06-21T12:29:40.475
+Unexpected IOException with stream: 
+
+
+# Created at 2021-06-21T12:29:40.475
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+
+# Created at 2021-06-21T12:29:40.476
+Unexpected IOException with stream: 
+
+
+# Created at 2021-06-21T12:29:40.477
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+
+# Created at 2021-06-21T12:29:40.477
+Unexpected IOException with stream: 
+
+
+# Created at 2021-06-21T12:29:40.478
+Unexpected IOException with stream: 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+
+# Created at 2021-06-21T12:29:40.478
+Unexpected IOException with stream: 
+
+
+# Created at 2021-06-21T12:29:40.479
+Unexpected IOException with stream: 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+
+# Created at 2021-06-21T12:29:40.479
+Unexpected IOException with stream: 
+
+
+# Created at 2021-06-21T12:29:40.480
+Unexpected IOException with stream: 	at com.sun.proxy.$Proxy23.isDisplayed(Unknown Source)
+
+# Created at 2021-06-21T12:29:40.480
+Unexpected IOException with stream: 
+
+
+# Created at 2021-06-21T12:29:40.481
+Unexpected IOException with stream: 	at com.trifacta.pageObjects.Home.Homepageconfirmation(Home.java:36)
+
+# Created at 2021-06-21T12:29:40.482
+Unexpected IOException with stream: 
+
+
+# Created at 2021-06-21T12:29:40.482
+Unexpected IOException with stream: 	at com.trifacta.stepDefinition.LoginStep.user_enters_valid_credentials_and_rownum_lands_on_homepage_check_for_the_product_version(LoginStep.java:52)
+
+# Created at 2021-06-21T12:29:40.483
+Unexpected IOException with stream: 
+
+
+# Created at 2021-06-21T12:29:40.484
+Unexpected IOException with stream: 	at ?.When user enters valid credentials "Sheet1" and 0 lands on homepage check for the product version(src/test/java/com/trifacta/features/Login.feature:6)
+
+# Created at 2021-06-21T12:29:40.485
+Unexpected IOException with stream: 
+
+
+# Created at 2021-06-21T12:29:40.485
+Unexpected IOException with stream: 
+
+
+# Created at 2021-06-21T12:29:42.142
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

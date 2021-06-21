@@ -1,0 +1,19 @@
+21:36:2021 14:36:08.743 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Google is launched successfully
+21:36:2021 14:36:08.915 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search value is provided
+21:36:2021 14:36:11.294 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search Results are obtained
+21:39:2021 14:39:17.299 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Google is launched successfully
+21:39:2021 14:39:17.500 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search value is provided
+21:39:2021 14:39:19.794 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search Results are obtained
+21:45:2021 14:45:40.623 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Google is launched successfully
+21:45:2021 14:45:40.811 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search value is provided
+21:45:2021 14:45:43.336 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search Results are obtained
+21:45:2021 14:45:48.410 INFO stepDefinition.LoginStep [TestNG-tests-1] - Login page is launched
+21:49:2021 14:49:52.130 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Google is launched successfully
+21:49:2021 14:49:52.342 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search value is provided
+21:49:2021 14:49:55.003 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search Results are obtained
+21:58:2021 14:58:51.467 INFO stepDefinition.LoginStep [TestNG-tests-1] - Login page is launched
+21:58:2021 14:58:51.912 INFO stepDefinition.LoginStep [TestNG-tests-1] - Login Page is loaded as expected.
+21:58:2021 14:58:53.731 INFO stepDefinition.LoginStep [TestNG-tests-1] - Username and password are entred successfully and Login is inprogress...
+21:00:2021 15:00:17.885 INFO stepDefinition.LoginStep [TestNG-tests-1] - Login is successful, Home page is loaded
+21:00:2021 15:00:19.924 INFO stepDefinition.LoginStep [TestNG-tests-1] - Product version is captured successfully
+21:00:2021 15:00:23.316 INFO stepDefinition.LoginStep [TestNG-tests-1] - Logged out from the account

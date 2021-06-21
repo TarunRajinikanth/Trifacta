@@ -151,7 +151,7 @@
     &lt;listener class-name=&quot;com.trifacta.utilities.Reporting&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Tifacta&quot; parallel=&quot;tests&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;headless&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.trifacta.runner.Runner&quot;/&gt;
     &lt;/classes&gt;
@@ -205,12 +205,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'feature')
 data.setCell(0, 2, 'com.trifacta.runner.Runner')
-data.setCell(0, 3, 30359);
+data.setCell(0, 3, 165371);
 window.suiteTableData['Tifacta']= { tableData: data, tableDiv: 'times-div-Tifacta'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 52 seconds</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Tifacta">
               </div> <!-- times-div-Tifacta -->
             </div> <!-- times-div -->
@@ -238,16 +238,16 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.trifacta.runner.Runner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUp(headless)</span>
+                <span class="method-name">setUp(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">feature(Log into the website, display the product version information, and then logout)</span>
-                <span class="method-start">20739 ms</span>
+                <span class="method-start">3973 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">51120 ms</span>
+                <span class="method-start">169372 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

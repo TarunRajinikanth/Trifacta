@@ -1,0 +1,82 @@
+# Created at 2021-06-21T09:03:06.373
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Unknown Source)
+
+
+# Created at 2021-06-21T09:03:06.715
+Unexpected IOException with stream: Cleaning up unclosed ZipFile for archive D:\Workspace\Tifacta\src\test\java\com\trifacta\testData\LoginData.xlsx
+
+
+# Created at 2021-06-21T09:03:06.746
+Unexpected IOException with stream: 
+
+
+# Created at 2021-06-21T09:03:06.747
+Unexpected IOException with stream:   Scenario Outline: Verifying the Product version number is displayed                                 [90m# src/test/java/com/trifacta/features/Login.feature:11[0m
+
+
+# Created at 2021-06-21T09:03:06.748
+Unexpected IOException with stream:     [32mGiven [0m[32musers launches the webapplication[0m                                                           [90m# LoginStep.users_launches_the_webapplication()[0m
+
+
+# Created at 2021-06-21T09:03:06.748
+Unexpected IOException with stream:     [32mWhen [0m[32muser enters valid credentials "[0m[32m[1mSheet1[0m[32m" and [0m[32m[1m0[0m[32m lands on homepage check for the product version[0m [90m# LoginStep.user_enters_valid_credentials_and_rownum_lands_on_homepage_check_for_the_product_version(String,int)[0m
+
+
+# Created at 2021-06-21T09:03:06.749
+Unexpected IOException with stream:     [32mThen [0m[32mlogout from the website[0m                                                                      [90m# LoginStep.logout_from_the_website()[0m
+
+
+# Created at 2021-06-21T09:03:06.755
+Unexpected IOException: 6,1,com.trifacta.runner.Runner,feature(com.trifacta.runner.Runner),null,null,null
+
+
+# Created at 2021-06-21T09:03:06.928
+Unexpected IOException with stream: 
+
+
+# Created at 2021-06-21T09:03:06.929
+Unexpected IOException with stream: 1
+
+# Created at 2021-06-21T09:03:06.930
+Unexpected IOException with stream:  Scenarios (
+
+# Created at 2021-06-21T09:03:06.931
+Unexpected IOException with stream: [32m1 passed[0m
+
+# Created at 2021-06-21T09:03:06.932
+Unexpected IOException with stream: )
+
+
+# Created at 2021-06-21T09:03:06.933
+Unexpected IOException with stream: 3
+
+# Created at 2021-06-21T09:03:06.934
+Unexpected IOException with stream:  Steps (
+
+# Created at 2021-06-21T09:03:06.935
+Unexpected IOException with stream: [32m3 passed[0m
+
+# Created at 2021-06-21T09:03:06.936
+Unexpected IOException with stream: )
+
+
+# Created at 2021-06-21T09:03:06.938
+Unexpected IOException with stream: 0m
+
+# Created at 2021-06-21T09:03:06.939
+Unexpected IOException with stream: 31.247s
+
+
+# Created at 2021-06-21T09:03:06.940
+Unexpected IOException with stream: 
+
+
+# Created at 2021-06-21T09:03:08.482
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

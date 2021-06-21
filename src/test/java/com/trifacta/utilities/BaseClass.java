@@ -21,7 +21,7 @@ public class BaseClass extends Runner {
 		File source = ts.getScreenshotAs(OutputType.FILE);
 		File target = new File(System.getProperty("user.dir")+"\\screenshots\\"+classname+".png");
 		FileUtils.copyFile(source, target);
-		logg.info("screenshot taken");
+		
 		
 	}
 	

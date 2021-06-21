@@ -1,9 +1,11 @@
+D:\Workspace\Tifacta\src\test\java\com\trifacta\pageObjects\Google.java
 D:\Workspace\Tifacta\src\test\java\com\trifacta\pageObjects\Login.java
 D:\Workspace\Tifacta\src\test\java\com\trifacta\utilities\Reporting.java
 D:\Workspace\Tifacta\src\test\java\com\trifacta\utilities\XLUtil.java
 D:\Workspace\Tifacta\src\test\java\com\trifacta\utilities\BaseClass.java
 D:\Workspace\Tifacta\src\test\java\com\trifacta\utilities\WaitUtil.java
 D:\Workspace\Tifacta\src\test\java\com\trifacta\runner\Runner.java
+D:\Workspace\Tifacta\src\test\java\com\trifacta\stepDefinition\GoogleSearch.java
 D:\Workspace\Tifacta\src\test\java\com\trifacta\utilities\ReadConfig.java
 D:\Workspace\Tifacta\src\test\java\com\trifacta\pageObjects\Home.java
 D:\Workspace\Tifacta\src\test\java\com\trifacta\pageObjects\Logout.java

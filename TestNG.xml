@@ -3,13 +3,11 @@
 
 <suite name="Tifacta" verbose="1" parallel="tests"
 	thread-count="1" configfailurepolicy="continue">
-
 	<listeners>
 		<listener class-name="com.trifacta.utilities.Reporting" />
 	</listeners>
-
 	<test name="Tifacta" annotations="JDK" preserve-order="true">
-		<parameter name="browser" value="headless" />
+		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.trifacta.runner.Runner" />
 		</classes>

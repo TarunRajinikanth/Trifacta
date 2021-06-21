@@ -4,6 +4,8 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.core.Logger;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.junit.Assert;
 
@@ -22,17 +24,18 @@ public class LoginStep extends BaseClass{
 	Login LoginPage;
 	Home HomePage;
 	Logout LogoutPage;
-		
+	Logger log = (Logger) LogManager.getLogger(LoginStep.class.getName());	
 	@Given("^users launches the webapplication$")
 	public void users_launches_the_webapplication() throws IOException {
+		driver.get(URL2);
 		  LoginPage = new Login();
-		  
+		  log.info("Login page is launched");
 		  if (LoginPage.LoginPageLogo()==true) {
-			  logg.info("Login page is loaded successfully");
+			  log.info("Login Page is loaded as expected.");
 			  Assert.assertTrue(true);	
 		  }
 		  else {
-			  logg.info("Login page failed to load");
+			  log.error("Failed to load login page");
 			  Assert.assertTrue(false);	 
 		  }
 	}
@@ -44,20 +47,23 @@ public class LoginStep extends BaseClass{
 		   String username = userData.get(rownum).get("Username");
 		   String password = userData.get(rownum).get("Password");
 		   HomePage = LoginPage.login(username, password);
+		   log.info("Username and password are entred successfully and Login is inprogress...");
 		   Assert.assertTrue(HomePage.Homepageconfirmation());
+		   log.info("Login is successful, Home page is loaded");
 	}
 
 	
-	@Then("^logout from the website$")
+	@Then("^logout from the website as well$")
 	public void logout_from_the_website() throws InterruptedException {
 	   LogoutPage = HomePage.homepage();
+	   log.info("Product version is captured successfully");
 	   LogoutPage.logout();
 	   if(LogoutPage.LogoutConfirmation()==true) {
-		   logg.info("User logged out successfull");
+		   log.info("Logged out from the account");
 		   Assert.assertTrue(true);
 	   }
 	   else if (LogoutPage.LogoutConfirmation()==false) {
-		   logg.info("User Logout failed");
+		   log.info("Logout failed");
 		   Assert.assertTrue(false);
 	  
 	}
