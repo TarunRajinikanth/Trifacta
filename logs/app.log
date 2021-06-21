@@ -17,3 +17,15 @@
 21:00:2021 15:00:17.885 INFO stepDefinition.LoginStep [TestNG-tests-1] - Login is successful, Home page is loaded
 21:00:2021 15:00:19.924 INFO stepDefinition.LoginStep [TestNG-tests-1] - Product version is captured successfully
 21:00:2021 15:00:23.316 INFO stepDefinition.LoginStep [TestNG-tests-1] - Logged out from the account
+21:09:2021 17:09:54.668 INFO stepDefinition.LoginStep [TestNG-tests-1] - Login page is launched
+21:09:2021 17:09:55.060 INFO stepDefinition.LoginStep [TestNG-tests-1] - Login Page is loaded as expected.
+21:09:2021 17:09:56.420 INFO stepDefinition.LoginStep [TestNG-tests-1] - Username and password are entred successfully and Login is inprogress...
+21:10:2021 17:10:10.835 INFO stepDefinition.LoginStep [TestNG-tests-1] - Login is successful, Home page is loaded
+21:10:2021 17:10:12.926 INFO stepDefinition.LoginStep [TestNG-tests-1] - Product version is captured successfully
+21:10:2021 17:10:15.621 INFO stepDefinition.LoginStep [TestNG-tests-1] - Logged out from the account
+21:19:2021 17:19:33.608 INFO stepDefinition.LoginStep [TestNG-tests-1] - Login page is launched
+21:19:2021 17:19:34.081 INFO stepDefinition.LoginStep [TestNG-tests-1] - Login Page is loaded as expected.
+21:19:2021 17:19:35.554 INFO stepDefinition.LoginStep [TestNG-tests-1] - Username and password are entred successfully and Login is inprogress...
+21:19:2021 17:19:57.481 INFO stepDefinition.LoginStep [TestNG-tests-1] - Login is successful, Home page is loaded
+21:19:2021 17:19:59.395 INFO stepDefinition.LoginStep [TestNG-tests-1] - Product version is captured successfully
+21:20:2021 17:20:02.109 INFO stepDefinition.LoginStep [TestNG-tests-1] - Logged out from the account

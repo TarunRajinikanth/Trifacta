@@ -19,6 +19,9 @@
 	</Appenders>
 	<Loggers>
 		<Logger name ="com.trifacta.stepDefinition" level="trace" additivity="true">
+			<AppenderRef ref="Console"/>
+		</Logger>
+		<Logger name ="com.trifacta.stepDefinition" level="trace" additivity="true">
 			<AppenderRef ref="RollingFile"/>
 		</Logger>
 		<Root level="trace">

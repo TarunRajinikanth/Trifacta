@@ -50,9 +50,6 @@ public class Runner {
 		
 		testNGCucumberRunner = new TestNGCucumberRunner(this.getClass());
 		
-		
-		//propertyConfigurator.configure("log4j.properties");
-		
 		if(br.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+RC.launchChrome());
 			driver = new ChromeDriver();

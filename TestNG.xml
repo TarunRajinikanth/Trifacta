@@ -7,7 +7,7 @@
 		<listener class-name="com.trifacta.utilities.Reporting" />
 	</listeners>
 	<test name="Tifacta" annotations="JDK" preserve-order="true">
-		<parameter name="browser" value="chrome" />
+		<parameter name="browser" value="headless" />
 		<classes>
 			<class name="com.trifacta.runner.Runner" />
 		</classes>
