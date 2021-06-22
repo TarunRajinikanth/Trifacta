@@ -44,7 +44,7 @@ import cucumber.api.testng.TestNGCucumberRunner;
 		dryRun = false,
 		tags = {"@google"},
 		monochrome=false,
-		plugin= {"pretty","html:test-output", "json:json_output/cucumber.json", "junit:junit_output/cucumber.xml" }
+		plugin= {"pretty","html:test-output","pretty:target/cucumber-pretty.txt", "json:json_output/cucumber.json", "junit:junit_output/cucumber.xml","usage:target/cucumber-usage.json" }
 		)
 
 public class Runner {

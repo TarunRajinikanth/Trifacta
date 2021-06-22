@@ -1,0 +1,7 @@
+Feature: Launch Google
+
+  @google
+  Scenario: Launch Google in browser     [90m# GoogleSearch.feature:4[0m
+    [32mGiven [0m[32muser launches google[0m           [90m# GoogleSearch.user_launches_google()[0m
+    [32mThen [0m[32mEnters "[0m[32m[1mSelenium[0m[32m" in search bar[0m [90m# GoogleSearch.enters_in_search_bar(String)[0m
+    [32mThen [0m[32mClicks enter[0m                    [90m# GoogleSearch.clicks_enter()[0m

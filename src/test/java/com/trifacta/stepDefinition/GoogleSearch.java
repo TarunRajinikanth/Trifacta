@@ -3,11 +3,13 @@ package com.trifacta.stepDefinition;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.core.Logger;
 
+
 import com.trifacta.pageObjects.Google;
 import com.trifacta.utilities.BaseClass;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
+
 
 public class GoogleSearch extends BaseClass {
 	
@@ -25,6 +27,7 @@ public class GoogleSearch extends BaseClass {
 	    go = new Google();
 	    go.txtSearchBar(value);
 	    log.info("Search value is provided");
+	   // Assert.assertTrue(false);
 	}
 
 	@Then("^Clicks enter$")

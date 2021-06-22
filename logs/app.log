@@ -78,3 +78,15 @@
 21:11:2021 20:11:25.189 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Google is launched successfully
 21:11:2021 20:11:25.560 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search value is provided
 21:11:2021 20:11:28.025 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search Results are obtained
+22:50:2021 08:50:39.035 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Google is launched successfully
+22:50:2021 08:50:39.308 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search value is provided
+22:50:2021 08:50:41.534 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search Results are obtained
+22:51:2021 08:51:07.037 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Google is launched successfully
+22:51:2021 08:51:07.175 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search value is provided
+22:51:2021 08:51:09.672 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search Results are obtained
+22:27:2021 09:27:19.886 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Google is launched successfully
+22:27:2021 09:27:20.003 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search value is provided
+22:27:2021 09:27:22.002 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search Results are obtained
+22:29:2021 09:29:34.580 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Google is launched successfully
+22:29:2021 09:29:34.712 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search value is provided
+22:29:2021 09:29:37.009 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search Results are obtained

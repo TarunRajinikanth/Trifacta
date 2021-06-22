@@ -1,0 +1,56 @@
+[
+  {
+    "source": "^Enters \"([^\"]*)\" in search bar$",
+    "steps": [
+      {
+        "name": "Enters \"Selenium\" in search bar",
+        "aggregatedDurations": {
+          "average": 0.120430001,
+          "median": 0.120430001
+        },
+        "durations": [
+          {
+            "duration": 0.120430001,
+            "location": "GoogleSearch.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Clicks enter$",
+    "steps": [
+      {
+        "name": "Clicks enter",
+        "aggregatedDurations": {
+          "average": 7.2780615,
+          "median": 7.2780615
+        },
+        "durations": [
+          {
+            "duration": 7.2780615,
+            "location": "GoogleSearch.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user launches google$",
+    "steps": [
+      {
+        "name": "user launches google",
+        "aggregatedDurations": {
+          "average": 4.419400799,
+          "median": 4.419400799
+        },
+        "durations": [
+          {
+            "duration": 4.419400799,
+            "location": "GoogleSearch.feature:6"
+          }
+        ]
+      }
+    ]
+  }
+]
