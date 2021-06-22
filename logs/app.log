@@ -90,3 +90,6 @@
 22:29:2021 09:29:34.580 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Google is launched successfully
 22:29:2021 09:29:34.712 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search value is provided
 22:29:2021 09:29:37.009 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search Results are obtained
+22:39:2021 09:39:37.061 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Google is launched successfully
+22:39:2021 09:39:37.229 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search value is provided
+22:39:2021 09:39:39.813 INFO stepDefinition.GoogleSearch [TestNG-tests-1] - Search Results are obtained

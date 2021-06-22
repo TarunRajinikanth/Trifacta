@@ -39,7 +39,7 @@ formatter.match({
   "location": "GoogleSearch.user_launches_google()"
 });
 formatter.result({
-  "duration": 4419400799,
+  "duration": 6213941100,
   "status": "passed"
 });
 formatter.match({
@@ -52,14 +52,14 @@ formatter.match({
   "location": "GoogleSearch.enters_in_search_bar(String)"
 });
 formatter.result({
-  "duration": 120430001,
+  "duration": 161085701,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleSearch.clicks_enter()"
 });
 formatter.result({
-  "duration": 7278061500,
+  "duration": 7591473800,
   "status": "passed"
 });
 });

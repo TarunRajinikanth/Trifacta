@@ -5,12 +5,12 @@
       {
         "name": "Enters \"Selenium\" in search bar",
         "aggregatedDurations": {
-          "average": 0.120430001,
-          "median": 0.120430001
+          "average": 0.161085701,
+          "median": 0.161085701
         },
         "durations": [
           {
-            "duration": 0.120430001,
+            "duration": 0.161085701,
             "location": "GoogleSearch.feature:7"
           }
         ]
@@ -23,12 +23,12 @@
       {
         "name": "Clicks enter",
         "aggregatedDurations": {
-          "average": 7.2780615,
-          "median": 7.2780615
+          "average": 7.5914738,
+          "median": 7.5914738
         },
         "durations": [
           {
-            "duration": 7.2780615,
+            "duration": 7.5914738,
             "location": "GoogleSearch.feature:8"
           }
         ]
@@ -41,12 +41,12 @@
       {
         "name": "user launches google",
         "aggregatedDurations": {
-          "average": 4.419400799,
-          "median": 4.419400799
+          "average": 6.2139411,
+          "median": 6.2139411
         },
         "durations": [
           {
-            "duration": 4.419400799,
+            "duration": 6.2139411,
             "location": "GoogleSearch.feature:6"
           }
         ]

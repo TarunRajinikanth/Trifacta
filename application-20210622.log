@@ -1,0 +1,3 @@
+2021-06-22 09:39:37.061 [TestNG-tests-1] INFO  com.trifacta.stepDefinition.GoogleSearch - Google is launched successfully
+2021-06-22 09:39:37.229 [TestNG-tests-1] INFO  com.trifacta.stepDefinition.GoogleSearch - Search value is provided
+2021-06-22 09:39:39.813 [TestNG-tests-1] INFO  com.trifacta.stepDefinition.GoogleSearch - Search Results are obtained

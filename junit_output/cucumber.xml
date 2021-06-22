@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.817892">
-<testcase classname="Launch Google" name="Launch Google in browser" time="11.817892">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="13.966501">
+<testcase classname="Launch Google" name="Launch Google in browser" time="13.966501">
 <system-out><![CDATA[Given user launches google..................................................passed
 Then Enters "Selenium" in search bar........................................passed
 Then Clicks enter...........................................................passed
